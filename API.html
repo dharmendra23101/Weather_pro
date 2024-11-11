@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="ban">
+        <div class="nav">
+            <h1 class="dk">name</h1>
+            <!-- <img src="" class="dk"> -->
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="Search">
+        <div>
+            <input id="input" type="text" placeholder="enter city" />
+            <button id="id"> Search </button>
+        </div>
+    </div>
+
+    <div id="info">
+        <div id="citybox">
+            <h3 id="city_name">Welcome</h3>
+        </div>
+
+        <dib id="main_info">
+            <div id="left">
+                <div>
+                    <h3 style="top: -20px; position: absolute;">Weather</h3>
+                    <h5>Now</h5>
+                    
+                </div>
+                <div  id="tem">
+                    <div id="temp">
+                        21°
+                    </div>
+                    
+                    <div id="r">
+                        <img id="image"  src="" alt="image">
+                    </div>
+                </div>
+                <h6 id="Feels" style="top: 70px; position: absolute;">Feels like</h6>
+            </div>
+
+            <div id="right">
+                <div style="position: absolute;right: 5px;top: -5px;">...</div>
+                <h5 class="r_data" id="cloudy">cloudy</h5>
+                <h6 class="r_data" id="precip">precip</h6>
+                <h6 class="r_data" id="humidity">humidity</h6>
+                <h6 class="r_data" id="wind">wind</h6>
+            </div>
+        </dib>
+        <h3 id="date">date</h3>
+        <h3 id="time">time</h3>
+
+
+    </div>
+    
+    <script src="API.js"></script>
+</body>
+
+</html>
