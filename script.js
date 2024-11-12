@@ -22,7 +22,7 @@ button.addEventListener('click', async() =>{
     temp.innerText = `${result.current.temp_c}°`;
     document.getElementById("image").src= `https:${result.current.condition.icon}`;
 
-    document.getElementById("Feels").innerText = `Feels like ${result.current.feelslike_f}`
+    document.getElementById("Feels").innerText = `Feels like ${result.current.feelslike_c}°C`
 
     document.getElementById("cloudy").innerText = result.current.condition.text;
     document.getElementById("wind").innerText = `Wind: ${result.current.wind_kph} kph`
