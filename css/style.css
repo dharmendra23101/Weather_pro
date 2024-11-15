@@ -111,12 +111,10 @@ input {
     border-radius: 15px;
     box-shadow: 0px 0px 1px rgb(8, 72, 3);
     color: green;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-#city_name{
-    font-size: 25px;
-}
+
 #main_info {
     display: flex;
     position: relative;
