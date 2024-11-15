@@ -200,14 +200,14 @@ input {
 }
 
 #precip{
-    top: 40px;
+    top: 60px;
     font-size: 10px;
 }
 #humidity{
-    top: 50px;
+    top: 70px;
     font-size: 10px;
 }
 #wind{
-    top: 60px;
+    top: 80px;
     font-size: 10px;
 }
