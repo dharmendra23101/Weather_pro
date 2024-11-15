@@ -114,7 +114,9 @@ input {
     font-size: 30px;
 }
 
-
+#city_name{
+    font-size: 25px;
+}
 #main_info {
     display: flex;
     position: relative;
